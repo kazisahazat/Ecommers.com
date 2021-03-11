@@ -1,0 +1,1616 @@
+/*====================== Extra small devices 
+================================================================*/
+@media (max-width: 479.98px) {
+
+    /*========== Top_hadding part start ==========*/
+    #top_hadding {
+        top: 41px;
+        padding-top: 11px;
+        padding-bottom: 26px;
+    }
+    .menu ul {
+        height: 118%;
+    }
+    .logo a img {
+        padding-top: 0;
+    }
+
+    .logo {
+        width: 24%;
+    }
+
+    .search_box {
+        width: 100%;
+        height: 49px;
+        display: flex;
+        padding: 5px;
+    }
+
+    .search_box .dropdown {
+        width: 116px;
+    }
+
+    .menu {
+        position: relative;
+        top: 16px;
+        display: inline block;
+    }
+
+    .search_box .search_field .input {
+        width: 78%;
+        height: 100%;
+        border: 0px;
+        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
+        position: relative;
+        left: -13px;
+    }
+
+    .search_box .search_field .fa {
+        top: 9px;
+        right: 11px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .flaticon-profile-user {
+        line-height: 30px;
+        font-size: 30px;
+        color: #581d77;
+        padding-right: 15px;
+    }
+
+    .flaticon-profile-user:hover {
+        line-height: 30px;
+        font-size: 30px;
+        color: #ff9900;
+        padding-right: 15px;
+    }
+
+    #wish_h {
+        display: none;
+    }
+
+    #cart_h {
+        display: none;
+    }
+
+    #user_h {
+        display: none;
+    }
+
+    #dex_logo {
+        display: none;
+    }
+
+    #log_access {
+        display: none;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+        height: 60px;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+
+    /*========== Navbar part start ==========*/
+    .navbar {
+        border-bottom: 1px solid #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        transition: all linear .4s;
+        z-index: 9999;
+        padding-top: 18px;
+        padding-bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background: #fff;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #000;
+        border: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    .fa.fa-bars {
+        color: #000;
+        font-size: 26px;
+    }
+
+    .navbar-nav .nav-item {
+        background: #fff;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+        font-weight: 600;
+        color: #000;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        transition: all linear .3s;
+        padding: 10px 20px;
+        border-left: none;
+        border-bottom: 2px solid #ddd;
+    }
+
+    #bt-3 {
+        box-shadow: 0px 0px 5px 2px #ddd;
+    }
+
+    .navbarSupportedContent {
+        padding-top: 30px;
+    }
+
+    .pat-3 {
+        padding-top: 20px;
+    }
+
+
+
+
+    /*=========== Mob_footer part start ===========*/
+    #mob_footer {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 0px;
+        background: #fff;
+        z-index: 999;
+        border-top: 2px solid #ddd;
+    }
+
+    .fot_menu a {
+        line-height: 30px;
+        font-size: 30px;
+        color: #581d77;
+        padding-right: 15px;
+    }
+
+    .fot_menu a:hover {
+        color: #ff9900;
+    }
+
+
+
+
+
+
+    /*=========== Banner part start ===========*/
+
+    #banner {
+        top: 113px;
+    }
+
+    #banner {
+        position: relative;
+        background: url(../images/banner/mob_banner.jpeg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 159px;
+        padding-bottom: 100px;
+        margin-bottom: 0;
+    }
+
+    #banner::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .banner-item {
+        text-align: center;
+    }
+
+
+
+    #banner .home_item_head h2 {
+        font-size: 32px;
+    }
+
+    /*=========== menu2 part start ===========*/
+    .menu2 {
+        margin-top: 30px;
+        margin-right: 16px;
+    }
+
+    /*=========== section_top part start ===========*/
+    #section_top {
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+
+    #section_top .btn {
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+
+    #section_top hr {
+        display: none;
+    }
+
+    #section_top .cetarory_img {
+        padding: 35px;
+        height: auto;
+    }
+
+    #sell_local_btn .btn {
+        font-size: 14px;
+    }
+    #section_top .cetarory_img img {
+        width: auto; 
+        height: 150px;
+        transition: all linear .3s;
+        padding: 10px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+
+    /*=========== shop part start ===========*/
+    #shop {
+        padding-top: 83px;
+    }
+
+    .about-btn {
+        margin-bottom: 0;
+    }
+
+    .shop-hadding h3 {
+        font-size: 20px;
+        color: #000;
+    }
+
+    .shop-item {
+        height: auto;
+    }
+
+    .icon {
+        top: -38px;
+    }
+
+    #shop #sell_local_btn .btn {
+        margin-bottom: 15px;
+    }
+
+    /*=========== Footer part start ===========*/
+    #footer {
+        padding-top: 30px;
+    }
+
+    .last-b {
+        display: none;
+    }
+
+    .border_top {
+        margin-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    #copyright {
+        padding-top: 10px;
+        padding-bottom: 79px;
+    }
+
+    #shop .secnd_row .text_content {
+        padding-left: 30px;
+        text-align: center;
+    }
+
+    #shop .secnd_row .text_icon {
+        text-align: center;
+    }
+
+    #shop .secnd_row {
+        margin-bottom: 30px;
+    }
+
+    #copyright .copy_clint_imgs ul li {
+        width: 15%;
+    }
+
+
+
+
+
+    /*=======================================
+                Card Order part start         
+    =========================================*/
+    #card #section_top {
+        padding-top: 95px;
+    }
+
+    #page_titel .titel_links p {
+        font-size: 11px;
+    }
+
+    .order_table {
+        max-width: 480px;
+        overflow-x: auto;
+    }
+
+    #card .next_step_btn {
+        margin-bottom: 25px;
+    }
+
+
+    /*=======================================
+                Card Order part start         
+    =========================================*/
+
+    .chose_card {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .chose_card label i {
+        font-size: 42px;
+    }
+
+    .chose_card label {
+        width: 23%;
+    }
+
+
+
+
+
+
+    .cart_style .card_box_titel {
+        font-size: 14px;
+    }
+
+    #shopping_cart_page .cart_style h3 {
+        font-size: 21px;
+    }
+
+    /*=======================================
+                catagory part start         
+    =========================================*/
+    #catagory #section_top {
+        padding-top: 95px;
+        padding-bottom: 10px;
+    }
+
+    #catagory #sell_local_btn {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    /*=======================================
+                Dashbord part start         
+    =========================================*/
+
+    #dashbord #section_top {
+        padding-top: 100px;
+    }
+
+    #dashbord #page_titel .titel_links {
+        margin-bottom: 15px;
+    }
+
+    /*=======================================
+                My_purchaes part start         
+    =========================================*/
+    #my_purchaes #section_top {
+        padding-top: 100px;
+    }
+
+    #my_purchaes #page_titel .titel_links {
+        margin-bottom: 15px;
+    }
+
+    #my_purchaes .user_head h4 {
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    #Purchases_table {
+        max-width: 460px;
+        overflow-x: auto;
+    }
+
+
+    /*=======================================
+                My_purchaes part start         
+    =========================================*/
+    #product_p #section_top {
+        padding-top: 95px;
+    }
+
+    #product_p .shop-item {
+        margin-bottom: 25px;
+    }
+
+
+    #signin #signin_form {
+        padding-top: 190px;
+    }
+
+    #signup #signup_form {
+        padding-top: 185px;
+    }
+
+
+
+    /*=======================================
+                Profile_edit part start         
+    =========================================*/
+    #profile_edit #section_top {
+        background: #f7f7f7;
+        padding-top: 100px;
+        padding-bottom: 10px;
+    }
+
+    #page_titel .titel_links {
+        background: #fff;
+        margin-bottom: 20px;
+    }
+
+    #my_profile_editing #product_p .ftr_btns a {
+        font-size: 12px;
+        padding: 10px 14px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/*=========================== Extra small 2 devices 
+=======================================================================*/
+@media (min-width: 480px) and (max-width: 575.98px) {
+
+    /*========== Top_hadding part start ==========*/
+    #top_hadding {
+        top: 41px;
+        padding-top: 11px;
+        padding-bottom: 26px;
+    }
+    .menu ul {
+        height: 118%;
+    }
+    .logo a img {
+        padding-top: 0;
+    }
+
+    .logo {
+        width: 24%;
+    }
+
+    .search_box {
+        width: 100%;
+        height: 49px;
+        display: flex;
+        padding: 5px;
+    }
+
+    .search_box .dropdown {
+        width: 116px;
+    }
+
+    .menu {
+        position: relative;
+        top: 16px;
+        display: inline block;
+    }
+
+    .search_box .search_field .input {
+        width: 78%;
+        height: 100%;
+        border: 0px;
+        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
+        position: relative;
+        left: -13px;
+    }
+
+    .search_box .search_field {
+        width: 504px;
+    }
+
+    .search_box .search_field .fa {
+        top: 9px;
+        right: 11px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .flaticon-profile-user {
+        line-height: 30px;
+        font-size: 30px;
+        color: #581d77;
+        padding-right: 15px;
+    }
+
+    .flaticon-profile-user:hover {
+        line-height: 30px;
+        font-size: 30px;
+        color: #ff9900;
+        padding-right: 15px;
+    }
+
+    #wish_h {
+        display: none;
+    }
+
+    #cart_h {
+        display: none;
+    }
+
+    #user_h {
+        display: none;
+    }
+
+    #dex_logo {
+        display: none;
+    }
+
+    #log_access {
+        display: none;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+        height: 60px;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+
+    /*========== Navbar part start ==========*/
+    .navbar {
+        border-bottom: 1px solid #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        transition: all linear .4s;
+        z-index: 9999;
+        padding-top: 18px;
+        padding-bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background: #fff;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #000;
+        border: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    .fa.fa-bars {
+        color: #000;
+        font-size: 26px;
+    }
+
+    .navbar-nav .nav-item {
+        background: #fff;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+        font-weight: 600;
+        color: #000;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        transition: all linear .3s;
+        padding: 10px 20px;
+        border-left: none;
+        border-bottom: 2px solid #ddd;
+    }
+
+    #bt-3 {
+        box-shadow: 0px 0px 5px 2px #ddd;
+    }
+
+    .navbarSupportedContent {
+        padding-top: 30px;
+    }
+
+    .pat-3 {
+        padding-top: 20px;
+    }
+
+
+
+
+    /*=========== Mob_footer part start ===========*/
+    #mob_footer {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 0px;
+        background: #fff;
+        z-index: 999;
+        border-top: 2px solid #ddd;
+    }
+
+    .fot_menu a {
+        line-height: 30px;
+        font-size: 30px;
+        color: #581d77;
+        padding-right: 15px;
+    }
+
+    .fot_menu a:hover {
+        color: #ff9900;
+    }
+
+
+
+
+
+
+    /*=========== Banner part start ===========*/
+
+    #banner {
+        top: 113px;
+    }
+
+    #banner {
+        position: relative;
+        background: url(../images/banner/mob_banner.jpeg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 159px;
+        padding-bottom: 100px;
+        margin-bottom: 0;
+    }
+
+    #banner::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .banner-item {
+        text-align: center;
+    }
+
+
+
+    #banner .home_item_head h2 {
+        font-size: 44px;
+    }
+
+    /*=========== menu2 part start ===========*/
+    .menu2 {
+        margin-top: 30px;
+        margin-right: 16px;
+    }
+
+    /*=========== section_top part start ===========*/
+    #section_top {
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+
+    #section_top .btn {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    #section_top hr {
+        display: none;
+    }
+
+    #section_top .cetarory_img {
+        padding: 35px;
+        height: auto;
+    }
+
+    #section_top .cetarori_item {
+        margin: 0 89px;
+    }
+    #section_top .cetarory_img img {
+        width: auto; 
+        height: 150px;
+        transition: all linear .3s;
+        padding: 10px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+
+
+    /*=========== shop part start ===========*/
+    #shop {
+        padding-top: 83px;
+    }
+
+    .about-btn {
+        margin-bottom: 0;
+    }
+
+    .shop-hadding h3 {
+        font-size: 20px;
+        color: #000;
+    }
+
+    .shop-item {
+        height: auto;
+    }
+
+    .icon {
+        top: -38px;
+    }
+
+    #shop #sell_local_btn .btn {
+        margin-bottom: 15px;
+    }
+
+    /*=========== Footer part start ===========*/
+    #footer {
+        padding-top: 30px;
+    }
+
+    .last-b {
+        display: none;
+    }
+
+    .border_top {
+        margin-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    #copyright {
+        padding-top: 10px;
+        padding-bottom: 79px;
+    }
+
+    #shop .secnd_row .text_content {
+        padding-left: 30px;
+        text-align: center;
+    }
+
+    #shop .secnd_row .text_icon {
+        text-align: center;
+    }
+
+    #shop .secnd_row {
+        margin-bottom: 30px;
+    }
+
+    #copyright .copy_clint_imgs ul li {
+        width: 15%;
+    }
+
+    /*=======================================
+                Card Order part start         
+    =========================================*/
+    #card #section_top {
+        padding-top: 95px;
+    }
+
+
+    .order_table {
+        max-width: 480px;
+        overflow-x: auto;
+    }
+
+    #card .next_step_btn {
+        margin-bottom: 25px;
+    }
+
+    #card_had .card_titel ul li a {
+        padding: 0 0;
+        font-size: 11px;
+    }
+
+
+    /*=======================================
+                Card Order part start         
+    =========================================*/
+
+    .chose_card {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .chose_card label i {
+        font-size: 71px;
+    }
+
+    .chose_card label {
+        width: 23%;
+    }
+
+    /*=======================================
+                catagory part start         
+    =========================================*/
+    #catagory #section_top {
+        padding-top: 95px;
+        padding-bottom: 10px;
+    }
+
+    #catagory #sell_local_btn {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    /*=======================================
+                Dashbord part start         
+    =========================================*/
+
+    #dashbord #section_top {
+        padding-top: 100px;
+    }
+
+    /*=======================================
+                My_purchaes part start         
+    =========================================*/
+    #my_purchaes #section_top {
+        padding-top: 100px;
+    }
+
+    #my_purchaes #page_titel .titel_links {
+        margin-bottom: 15px;
+    }
+
+    #my_purchaes .user_head h4 {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    #Purchases_table {
+        max-width: 547px;
+        overflow-x: auto;
+    }
+
+    #product_p #section_top {
+        padding-top: 100px;
+    }
+
+    #signin #signin_form {
+        padding-top: 190px;
+    }
+
+    #signup #signup_form {
+        padding-top: 185px;
+    }
+
+
+
+    /*=======================================
+                Profile_edit part start         
+    =========================================*/
+    #profile_edit #section_top {
+        background: #f7f7f7;
+        padding-top: 100px;
+        padding-bottom: 10px;
+    }
+
+    #page_titel .titel_links {
+        background: #fff;
+        margin-bottom: 20px;
+    }
+
+    #my_profile_editing #product_p .ftr_btns a {
+        font-size: 12px;
+        padding: 10px 14px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/*=========================== Small devices 
+=======================================================================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*========== Top_hadding part start ==========*/
+    #top_hadding {
+        top: 41px;
+        padding-top: 11px;
+        padding-bottom: 26px;
+    }
+    .menu ul {
+        height: 118%;
+    }
+    .logo a img {
+        padding-top: 0;
+    }
+
+    .logo {
+        width: 24%;
+    }
+
+    .search_box {
+        width: 100%;
+        height: 49px;
+        display: flex;
+        padding: 5px;
+    }
+
+    .search_box .dropdown {
+        width: 116px;
+    }
+
+    .menu {
+        position: relative;
+        top: 16px;
+        display: inline block;
+    }
+
+    .search_box .search_field .input {
+        width: 78%;
+        height: 100%;
+        border: 0px;
+        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
+        position: relative;
+        left: -13px;
+    }
+
+    .search_box .search_field {
+        width: 504px;
+    }
+
+    .search_box .search_field .fa {
+        top: 9px;
+        right: 11px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .flaticon-profile-user {
+        line-height: 30px;
+        font-size: 30px;
+        color: #581d77;
+        padding-right: 15px;
+    }
+
+    .flaticon-profile-user:hover {
+        line-height: 30px;
+        font-size: 30px;
+        color: #ff9900;
+        padding-right: 15px;
+    }
+
+    #wish_h {
+        display: none;
+    }
+
+    #cart_h {
+        display: none;
+    }
+
+    #user_h {
+        display: none;
+    }
+
+    #dex_logo {
+        display: none;
+    }
+
+    #log_access {
+        display: none;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+        height: 60px;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+
+    /*========== Navbar part start ==========*/
+    .navbar {
+        border-bottom: 1px solid #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        transition: all linear .4s;
+        z-index: 9999;
+        padding-top: 18px;
+        padding-bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background: #fff;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #000;
+        border: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    .fa.fa-bars {
+        color: #000;
+        font-size: 26px;
+    }
+
+    .navbar-nav .nav-item {
+        background: #fff;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+        font-weight: 600;
+        color: #000;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        transition: all linear .3s;
+        padding: 10px 20px;
+        border-left: none;
+        border-bottom: 2px solid #ddd;
+    }
+
+    #bt-3 {
+        box-shadow: 0px 0px 5px 2px #ddd;
+    }
+
+    .navbarSupportedContent {
+        padding-top: 30px;
+    }
+
+    .pat-3 {
+        padding-top: 20px;
+    }
+
+
+
+
+    /*=========== Mob_footer part start ===========*/
+    #mob_footer {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 0px;
+        background: #fff;
+        z-index: 999;
+        border-top: 2px solid #ddd;
+    }
+
+    .fot_menu a {
+        line-height: 30px;
+        font-size: 30px;
+        color: #581d77;
+        padding-right: 15px;
+    }
+
+    .fot_menu a:hover {
+        color: #ff9900;
+    }
+
+
+
+
+
+
+    /*=========== Banner part start ===========*/
+
+    #banner {
+        top: 113px;
+    }
+
+    #banner {
+        position: relative;
+        background: url(../images/banner/mob_banner.jpeg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 159px;
+        padding-bottom: 100px;
+        margin-bottom: 0;
+    }
+
+    #banner::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .banner-item {
+        text-align: center;
+    }
+
+
+
+    #banner .home_item_head h2 {
+        font-size: 44px;
+    }
+
+    /*=========== menu2 part start ===========*/
+    .menu2 {
+        margin-top: 30px;
+        margin-right: 16px;
+    }
+
+    /*=========== section_top part start ===========*/
+    #section_top {
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+
+    #section_top .btn {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    #section_top hr {
+        display: none;
+    }
+
+    #section_top .cetarory_img {
+        padding: 35px;
+        height: auto;
+    }
+
+
+
+
+
+    /*=========== shop part start ===========*/
+    #shop {
+        padding-top: 83px;
+    }
+
+    .about-btn {
+        margin-bottom: 0;
+    }
+
+    .shop-hadding h3 {
+        font-size: 20px;
+        color: #000;
+    }
+
+    .shop-item {
+        height: auto;
+    }
+
+    .icon {
+        top: -38px;
+    }
+
+    #shop #sell_local_btn .btn {
+        margin-bottom: 15px;
+    }
+
+    /*=========== Footer part start ===========*/
+    #footer {
+        padding-top: 30px;
+    }
+
+    .last-b {
+        display: none;
+    }
+
+    .border_top {
+        margin-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    #copyright {
+        padding-top: 10px;
+        padding-bottom: 79px;
+    }
+
+    #shop .secnd_row .text_content {
+        padding-left: 30px;
+        text-align: center;
+    }
+
+    #shop .secnd_row .text_icon {
+        text-align: center;
+    }
+
+    #shop .secnd_row {
+        margin-bottom: 30px;
+    }
+
+    #footer .e_form button {
+        padding: 7px 15px;
+    }
+
+    #copyright .copy_clint_imgs ul li {
+        width: 15%;
+    }
+
+    /*=======================================
+                Card Order part start         
+    =========================================*/
+    #card #section_top {
+        padding-top: 95px;
+    }
+
+
+    .order_table {
+        max-width: 480px;
+        overflow-x: auto;
+    }
+
+    #card .next_step_btn {
+        margin-bottom: 25px;
+    }
+
+    #card_had .card_titel ul li a {
+        padding: 0 0;
+        font-size: 11px;
+    }
+
+
+    /*=======================================
+                Card Order part start         
+    =========================================*/
+
+    .chose_card {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .chose_card label i {
+        font-size: 56px;
+    }
+
+    .chose_card label {
+        width: 23%;
+    }
+
+    /*=======================================
+                catagory part start         
+    =========================================*/
+    #catagory #section_top {
+        padding-top: 95px;
+        padding-bottom: 10px;
+    }
+
+    #catagory #sell_local_btn {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    /*=======================================
+                Dashbord part start         
+    =========================================*/
+
+    #dashbord #section_top {
+        padding-top: 100px;
+    }
+
+    /*=======================================
+                My_purchaes part start         
+    =========================================*/
+    #my_purchaes #section_top {
+        padding-top: 100px;
+    }
+
+    #my_purchaes .user_head h4 {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    #Purchases_table {
+        max-width: 547px;
+        overflow-x: auto;
+    }
+
+    #product_p .ftr_btns a {
+        font-size: 10px;
+    }
+
+    #product_p #section_top {
+        padding-top: 100px;
+    }
+
+    #product_p .shop-item {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    #product_p .priced_at {
+        padding-top: 2px;
+    }
+
+
+    #signin #signin_form {
+        padding-top: 190px;
+    }
+
+    #signup #signup_form {
+        padding-top: 185px;
+    }
+
+
+
+    /*=======================================
+                Profile_edit part start         
+    =========================================*/
+    #profile_edit #section_top {
+        background: #f7f7f7;
+        padding-top: 100px;
+        padding-bottom: 10px;
+    }
+
+    #page_titel .titel_links {
+        background: #fff;
+        margin-bottom: 20px;
+    }
+
+    #my_profile_editing #product_p .ftr_btns a {
+        font-size: 12px;
+        padding: 10px 14px;
+    }
+
+    #page_titel {
+        padding-bottom: 10px;
+    }
+
+    .user_photo_chose {
+        margin-top: 0px;
+    }
+
+
+
+
+
+
+}
+
+
+/*============================ Medium devices 
+=========================================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*========== Search-box part start ==========*/
+    .search_box {
+        width: 300px;
+    }
+
+    .search_box .search_field .input {
+        width: 83%;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+        left: -38px;
+        font-size: 12px;
+    }
+
+    .search_box .search_field .fa {
+        top: 3px;
+        right: 13px;
+    }
+
+
+
+    /*========== navbar part start ==========*/
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar #account_n {
+        display: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 15px;
+        padding: 10px 9px;
+    }
+
+    /*========== navbar part start ==========*/
+    .pl_1 {
+        padding-left: 0;
+    }
+
+    .pl_2 {
+        padding-left: 50px;
+    }
+
+    .menu ul li a {
+        padding-left: 10px;
+    }
+
+    /*=======================================
+                Card Order part start         
+    =========================================*/
+    .order_table {
+        max-width: 480px;
+        overflow-x: auto;
+    }
+
+    /*=======================================
+                Purchases_table part start         
+    =========================================*/
+    #Purchases_table {
+        max-width: 690px;
+        overflow-x: auto;
+    }
+
+
+    /*=======================================
+                product_p part start         
+    =========================================*/
+
+    #product_p .ftr_btns a {
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+
+    #product_p .priced_at {
+        padding-top: 4px;
+        color: #000;
+        font-size: 19px;
+        font-weight: 700;
+    }
+
+    .unlock_btn button {
+        font-size: 12px;
+    }
+
+    .btn_for_type .titel p {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+}
+
+
+/*============================ Large devices 
+=========================================================================*/
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar #account_n {
+        display: none;
+    }
+
+    .search_box {
+        width: 300px;
+    }
+
+    .search_box .search_field .input {
+        width: 83%;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+        left: -38px;
+        font-size: 12px;
+    }
+
+    .search_box .search_field .fa {
+        top: 3px;
+        right: 13px;
+    }
+
+
+
+}
+
+
+
+/*============================ Extra Large devices 
+=========================================================================*/
+@media (min-width: 1200px) {
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar #account_n {
+        display: none;
+    }
+
+}
